@@ -2,7 +2,7 @@
 
 This is a fork of [serverless-dynamodb-local](https://github.com/99xt/serverless-dynamodb-local). It can create and seed tables in your local DynamoDB instance.
 
-This plugin will **not** download, install or start a DynamoDB instance automatically. You can do that quite easily with Docker and Docker Compose.
+This plugin will **not** download, install or start a DynamoDB instance automatically. You can do that quite easily with Docker and Docker Compose. You may have a look at [a sample setup](https://github.com/rubenillodo/serverless-dynamodb-dev-sample) to see everything working together.
 
 ## Installation
 
