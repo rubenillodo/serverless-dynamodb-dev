@@ -39,5 +39,5 @@ custom:
 | `region`          | `localhost`              | Region (fake) to use when connecting to your DynamoDB.                                                        |
 | `accessKeyId`     | `MOCK_ACCESS_KEY_ID`     | Access key ID (fake) to use when connecting to DynamoDB.<br>**NOTE:** Your app needs to use the same one!     |
 | `secretAccessKey` | `MOCK_SECRET_ACCESS_KEY` | Secret access key (fake) to use when connecting to DynamoDB.<br>**NOTE:** Your app needs to use the same one! |
-| `migrate`         | -                        | Tables that do not exist already should be created.                                                           |
-| `seed`            | -                        | List of seed files per table name. If none are specified, then seeding will be skipped.                       |
+| `migrate`         | `false`                  | Tables that do not exist already should be created.                                                           |
+| `seeds`           | `false`                  | List of seed files per table name. If none are specified, then seeding will be skipped.                       |
